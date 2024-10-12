@@ -1,7 +1,74 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Environment variables
+.env
+.env.*.local
+
+# Typescript
+*.tsbuildinfo
+dist/
+out/
+
+# TypeORM
+ormconfig.js
+ormconfig.json
+ormconfig.ts
+ormconfig.env
+
+# Database files
+*.sqlite
+*.sqlite3
+dump.sql
+
+# PostgreSQL
+pgdata/
+pg_log/
+pg_hba.conf
+pg_ident.conf
+postmaster.opts
+postmaster.pid
+postgresql.auto.conf
+
+# React
+build/
+.cache/
+.docusaurus/
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.swp
+*.swo
+*~
+
+# IDEs
 .idea/
 .vscode/
-node_modules/
-build/
-tmp/
-temp/
-dist/
+*.suo
+*.nt
